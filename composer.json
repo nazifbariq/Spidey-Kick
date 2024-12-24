@@ -1,0 +1,25 @@
+{
+    "name": "user/uasrpl",
+    "type": "project",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "User\\Uasrpl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nazifbariq aqil",
+            "email": "nazifbariqaqil@student.uns.ac.id"
+        }
+    ],
+    "autoload-dev": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require": {
+        "phpunit/phpunit" : "^10.5",
+        "nesbot/carbon" : "^2.41"
+    }
+}
